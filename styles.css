@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #111;
+}
+
+h1{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10%;
+  color: #eee;
+  font-family: Sans-Serif;
+}
+
+#ingresar-datos{
+  color: #ddd;
+  text-align: center;
+  margin: auto;
+  margin-top: 1%;
+}
+
+#flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1%;
+}
+
+select{
+  margin-right: 2%;
+  background-color: #555;
+  outline: none;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#empezar{
+  margin-left: 2%;
+  background-color: #000;
+  padding: 5px;
+  border: none;
+  outline: none;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+#empezar:hover{
+  background-color: #444;
+  cursor: pointer;
+}
+
+#tabla-datos{
+  color: #000;
+  width: 50%;
+  height: auto;
+  background-color: #ddd;
+  display: flex;
+  margin: auto;
+  margin-top: 8%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #000;
+}
+
+#tabla-datos p{
+  width: 10%;
+  text-align: center;
+  color: #000;
+}
+
+#tabla-datos input {
+  width: 30%;
+  border: none ;
+  outline: none;
+  margin: 10px 0;
+  border: 2px solid #000;
+  padding: 2px;
+  transition: all .5s;
+  color: #000;
+}
+
+#tabla-datos input:focus{
+  background-color: #aaa;
+  color: #000;
+}
+
+#tabla-datos input::placeholder{
+  color: #777;
+}
+
+#btn-analizar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  visibility: hidden;
+  margin-top: 10px;
+  padding: 5px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+}
+
+#btn-analizar:hover{
+  background-color: #444;
+  cursor: pointer;
+}
+
+p{
+  color: #fff;
+  margin-top: 5px;
+}
+
+#grafica{
+  background-color: #ddd;
+  width: auto;
+  height: 250px;
+  padding: 10px;
+  visibility: hidden;
+  margin-top: 30px;
+  display: flex;
+  align-items: end;
+}
+
+#tituloPolitica{
+  text-align: center;
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 0 #333;
+}
+
+#tiempo{
+  background-color: #ddd;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  visibility: hidden;
+  display: flex;
+  align-items: end;
+}
+
+.valores{
+  display: inline-block;
+  background-color: blue;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  margin: 1px;
+  padding: 2px;
+  text-align: center;
+}
+
+.valoresVacios{
+  display: inline-block;
+  background-color: #ddd;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  font-size: 1px;
+  margin: 1px;
+  padding: 2px;
+  text-align: center;
+}
+
+.tiempo{
+  display: inline-block;
+  background-color: red;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  margin: 1px;
+  padding: 2px;
+  text-align: center;
+}
